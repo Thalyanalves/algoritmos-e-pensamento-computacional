@@ -1,0 +1,174 @@
+
+#include <stdio.h>
+
+
+
+int main()
+
+{
+
+int numA, numB, soma, pd ;
+
+
+
+printf ("digite o 1° número: ");//função de saida de dados
+
+scanf("%i",&numA); //Função de entrada de dados
+
+
+
+printf("digite o 2° número: "); 
+
+scanf("%i",&numB);
+
+
+
+soma = numA + numB; 
+
+pd = numA * numB;
+
+
+
+printf("%i + %i = %i\n",numA, numB, soma);
+
+
+
+printf("%i * %i = %i\n",numA, numB, pd);
+
+
+
+return 0;
+
+
+
+}
+
+
+
+Atividade 2:
+
+
+
+#include <stdio.h>
+
+
+
+int main(){
+
+
+
+int nA, nB, soma, media ;
+
+
+
+printf("escreva seu 1° numero real: "); //Pede o primeiro número 
+
+scanf("%i,&nA"); //Ler o primeiro número
+
+
+
+printf("escreva seu 2° número real: "); //Pede o segundo número 
+
+scanf("%i,&nB"); //Ler o segundo número 
+
+
+
+soma = nA + nB; 
+
+media = nA / nB; 
+
+
+
+printf("%i + %i = %i\n", nA, nB, soma); 
+
+
+
+printf("%i / %i = %i\n", nA, nB, media);
+
+
+
+return 0; 
+
+}
+
+
+
+Atividade 3:
+
+
+
+#include <stdio.h>
+
+
+
+int main() {
+
+   
+
+  int numA, sucessor, antecessor;
+
+   
+
+  printf("Escreva o numero: ");
+
+  scanf("%i", &numA);
+
+   
+
+  sucessor = numA + 1;
+
+  antecessor = numA - 1;
+
+   
+
+  printf("\nO numero digitado foi: %i\n", numA);
+
+  printf("O sucessor dele e: %i\n", sucessor);
+
+  printf("O antecessor dele e: %i\n", antecessor);
+
+   
+
+  return 0;
+
+}
+
+
+
+Atividade 4:
+
+
+
+#include <stdio.h>
+
+
+
+int main()
+
+{
+
+int numA, elevado; 
+
+int expoente = 2;
+
+
+
+printf (" Digite o numero que voce deseja elevar: "); 
+
+scanf ("%i,", &numA); 
+
+
+
+elevado = numA * 2;
+
+
+
+printf ("%i * 2 = %i\n", numA, elevado );
+
+
+
+return 0 ; 
+
+
+
+}
